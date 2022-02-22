@@ -1,0 +1,311 @@
+/* GLOBAL */
+
+*{
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.container{
+    max-width: 1260px;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* HEADER */
+.site-header {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 1rem;
+}
+.site-header-container {
+   display: flex;
+   justify-content: space-around;
+
+}
+.logo{
+    transition: 0.5s;
+}
+
+.logo:hover{
+    opacity: 0.8;
+}
+
+.logo:active{
+    opacity: 0.6;
+}
+
+.site-nav-list {
+    display: flex;
+    list-style: none;
+}
+.site-nav-item {
+    margin-right: 20px;
+}
+.site-nav-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(31, 46, 53, 0.8);
+    transition: 0.5s;
+}
+
+.site-nav-link:hover{
+    color:#EE4248;
+}
+
+.site-nav-link:active{
+    color:#EE4248;
+    opacity: 0.6;
+}
+
+.site-nav-img-list {
+    display: flex;
+    list-style: none;
+}
+.site-nav-img-link {
+    margin-right: 20px;
+
+}
+
+/* ............. */
+
+/* MAIN */
+/* hero */
+.site-hero-section {
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.site-hero-container {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.hero-div {
+    display: flex;
+}
+.site-hero-div {
+    margin-right: 200px;
+}
+.site-hero-head {
+    color: black;
+    font-size: 3rem;
+}
+.site-hero-span {
+    color: #EE4248;
+    font-size: 3rem;
+}
+.site-hero-text {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.site-hero-buttom {
+    text-decoration: none;
+    color: #fff;
+    background-color: #EE4248;
+    padding-top: 1rem;
+    padding-bottom:1rem ;
+    padding-right: 1.5rem ;
+    padding-left: 1.5rem ;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+
+
+.site-hero-buttom:hover{
+    opacity: 0.8;
+}
+
+.site-hero-buttom:active{
+    opacity: 0.6;
+}
+
+/* WELCOME */
+.site-welcome-section {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.site-welcome-container {
+    width: 100%;
+}
+.site-welcome {
+    display: flex;
+}
+.site-welcome-img {
+    margin-right: 200px;
+}
+.site-welcome-div {
+    padding-top: 50px;
+}
+.site-welcome-head {
+    color: #EE4248;
+    font-size: 3rem;
+}
+.site-welcome-span {
+    color: black;
+    font-size: 3rem;
+}
+.site-welcome-text {
+    font-size: 1.5rem;
+}
+
+.site-dsi-span{
+    color: #EE4248;
+    font-size: 1.5rem;
+}
+
+.bgc-grey{
+    background-color: #F6F6F6;
+}
+
+/* SALE CONTENT */
+.sale-content-section {
+    margin-bottom: 100px;
+}
+
+.site-sale-list {
+    display: flex;
+    list-style: none;
+}
+.site-sale-item {
+    margin-right: 100px;
+}
+
+.site-sale-h3 {
+    font-size: 2.5rem;
+    color: #EE4248;
+}
+.site-sale-p {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 3rem;
+}
+.site-sale-buttom-blue {
+    text-decoration: none;
+    background-color: blue;
+    color: #fff;
+    padding-top: 1rem ;
+    padding-bottom: 1rem ;
+    padding-right: 1.5rem ;
+    padding-left: 1.5rem ;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.site-sale-buttom-blue:hover{
+    opacity: 0.8;
+}
+
+.site-sale-buttom-blue:active{
+    opacity: 0.6;
+}
+
+
+
+.site-sale-buttom-pink {
+    text-decoration: none;
+    background-color: pink;
+    color: #fff;
+    padding-top :1rem ;
+    padding-bottom: 1rem ;
+    padding-right: 1.5rem ;
+    padding-left: 1.5rem ;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.site-sale-buttom-pink:hover{
+    opacity: 0.8;
+}
+
+
+.site-sale-buttom-pink:active{
+    opacity: 0.6;
+}
+
+
+
+.site-sale-buttom-yellow {
+    text-decoration: none;
+    background-color: yellow;
+    color: #fff;
+    padding-top: 1rem ;
+    padding-bottom: 1rem ;
+    padding-right: 1.5rem ;
+    padding-left: 1.5rem ;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.site-sale-buttom-yellow:hover{
+    opacity: 0.8;
+}
+
+.site-sale-buttom-yellow:active{
+    opacity: 0.6;
+}
+
+
+
+/* FOOTER */
+.site-footer {
+}
+.site-footer-section {
+}
+.footer-container {
+}
+.site-footer-df-div {
+    display: flex;
+}
+.site-footer-div1 {
+    margin-right: 100px;
+}
+.site-footer-list {
+    list-style: none;
+}
+.site-footer-item {
+}
+.site-footer-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:
+    #263238;
+}
+.site-footer-div2 {
+}
+.site-footer-h3 {
+    font-size: 2rem;
+   color: black;
+}
+/* ......... */
+
+.site-footer-bottom-text{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+   
+}
+
+.bgc-color-in-footer{
+    background-color: #EE4248;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
